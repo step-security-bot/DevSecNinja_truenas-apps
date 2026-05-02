@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0](https://github.com/DevSecNinja/truenas-apps/compare/v0.20.0...v1.0.0) (2026-05-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **mise:** Update tool dotenv-linter ( 3.3.0 ➔ 4.0.0 ) ([#299](https://github.com/DevSecNinja/truenas-apps/issues/299))
+
+### Features
+
+* **bitwarden:** add Bitwarden Lite self-hosted password manager ([#319](https://github.com/DevSecNinja/truenas-apps/issues/319)) ([6f631a2](https://github.com/DevSecNinja/truenas-apps/commit/6f631a262e8122d2d3179d86a69ed9844199a7c1))
+* **bitwarden:** dedicated CSP middleware for HIBP and Duo MFA ([#324](https://github.com/DevSecNinja/truenas-apps/issues/324)) ([bd91687](https://github.com/DevSecNinja/truenas-apps/commit/bd91687edf35d0ce5eb83462f268236e25902106))
+* **dns:** add travel subdomain as transparent local zone ([#334](https://github.com/DevSecNinja/truenas-apps/issues/334)) ([71a249a](https://github.com/DevSecNinja/truenas-apps/commit/71a249ad15573f310e7dad43fcde78e7bfae12d8))
+* **mise:** Update tool dotenv-linter ( 3.3.0 ➔ 4.0.0 ) ([#299](https://github.com/DevSecNinja/truenas-apps/issues/299)) ([70ff464](https://github.com/DevSecNinja/truenas-apps/commit/70ff4646126cfd0a257b166fe896b4dafc28c7a7))
+* **mise:** update tool trivy ( 0.69.3 ➔ 0.70.0 ) ([#286](https://github.com/DevSecNinja/truenas-apps/issues/286)) ([bfe9b8e](https://github.com/DevSecNinja/truenas-apps/commit/bfe9b8e08ee509f8c0c0197b033fdb038a8f3126))
+* **traefik:** suppress internal polling access logs ([#337](https://github.com/DevSecNinja/truenas-apps/issues/337)) ([c02dd52](https://github.com/DevSecNinja/truenas-apps/commit/c02dd5289cc2e7d62d071827fa4e7ee5171dbac8))
+
+
+### Bug Fixes
+
+* **bitwarden:** allow iOS 1Password imports through Traefik CSP ([#339](https://github.com/DevSecNinja/truenas-apps/issues/339)) ([99c4d4d](https://github.com/DevSecNinja/truenas-apps/commit/99c4d4d27b0de2bd247ab6463566132a03c13d82))
+* **bitwarden:** own bitwarden-frontend network instead of declaring it external ([#321](https://github.com/DevSecNinja/truenas-apps/issues/321)) ([9d4523d](https://github.com/DevSecNinja/truenas-apps/commit/9d4523d8619bb3fee35d46a62a43784081e52dda))
+* **bitwarden:** use 127.0.0.1 in healthcheck to avoid IPv6 localhost ([#322](https://github.com/DevSecNinja/truenas-apps/issues/322)) ([17db4a2](https://github.com/DevSecNinja/truenas-apps/commit/17db4a294a076664b3716000a6a13901bced2efe))
+* **ci:** notify IRM on workflow_dispatch reruns ([#317](https://github.com/DevSecNinja/truenas-apps/issues/317)) ([1bc90f3](https://github.com/DevSecNinja/truenas-apps/commit/1bc90f3b0953ab89c0e39d2eec450800002ff529))
+* **container:** update image docker.io/amir20/dozzle ( v10.4.0 ➔ v10.4.1 ) ([#329](https://github.com/DevSecNinja/truenas-apps/issues/329)) ([9c2f473](https://github.com/DevSecNinja/truenas-apps/commit/9c2f473b83ae25cc2d4306065ca2986f4f0047f3))
+* **github-release:** update release jdx/mise ( v2026.4.16 ➔ v2026.4.17 ) ([#342](https://github.com/DevSecNinja/truenas-apps/issues/342)) ([cf36898](https://github.com/DevSecNinja/truenas-apps/commit/cf368987f1b9e97f43c9506c673ca7850457ab2c))
+
 ## [0.20.0](https://github.com/DevSecNinja/truenas-apps/compare/v0.19.0...v0.20.0) (2026-05-01)
 
 
